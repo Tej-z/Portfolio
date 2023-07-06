@@ -44,6 +44,7 @@
     background-color: var(--bg-color-alt);
     transition: all 1s var(--transition);
     z-index: 10;
+    overflow: hidden;
 }
 
 .show-menu{
@@ -146,3 +147,14 @@
     bottom: 14px;
     transform: rotate(45deg);
 }
+
+.header_deco {
+    left: 75px;
+}
+
+.header_deco .shape {
+    top: -200px;
+    left: -168px;
+    z-index: -1;
+}
+

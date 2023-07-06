@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './contact.css'
 import { FaRegAddressBook, FaRegUser, FaRegEnvelope, FaRegMap } from 'react-icons/fa';
 import axios from 'axios';
+import shapeOne from '../../assets/shape-1.png';
 
 const Contact = () => {
     const [form, setForm] = useState({
@@ -109,6 +110,10 @@ const Contact = () => {
             </div>
         </form>
     </div>
+
+    <div className="section_deco deco_left">
+            <img src={shapeOne} alt='' className='shape' />
+        </div>
     </section>
   )
 }

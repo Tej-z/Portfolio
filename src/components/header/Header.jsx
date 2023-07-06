@@ -5,6 +5,8 @@ import {BsSun, BsMoon} from 'react-icons/bs'
 import './header.css'
 import { Link } from 'react-scroll';
 import { animateScroll } from 'react-scroll';
+import shapeOne from '../../assets/shape-1.png';
+
 
 
 const getStorageTheme = () => {
@@ -99,6 +101,10 @@ const Header = () => {
             </div>
 
                 </div>
+
+            <div className="section_deco deco_left header_deco">
+                <img src={shapeOne} alt='' className='shape' />
+            </div>
             </div>
 
 

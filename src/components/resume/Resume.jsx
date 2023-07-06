@@ -1,0 +1,57 @@
+import React from 'react'
+import './resume.css'
+import { cv } from '../../Data'
+import Card from './Card'
+
+const Resume = () => {
+  return (
+    <section className="resume section" id="resume">
+        <h2 className="section_title text-cs">Resume</h2>
+
+    
+    <div className="resume_container container grid">
+        <div className="resume_group">
+            <h3 className="resume_heading">Education</h3>
+
+            <div className="resume_items">
+                { cv.map((val, id) => {
+                    if(val.category === 'education'){
+                        return(
+                        <Card key={id} 
+                        title={val.title} 
+                        subtitle={val.subtitle} 
+                        date={val.date} 
+                        description = {val.description}
+                        />
+                    );
+                    }
+                }) }
+            </div>
+        </div>
+
+        <div className="resume_group">
+            <h3 className="resume_heading">Experience</h3>
+
+            <div className="resume_items">
+                { cv.map((val, id) => {
+                    if(val.category === 'experience'){
+                        return(
+                        <Card key={id} 
+                        title={val.title} 
+                        subtitle={val.subtitle} 
+                        date={val.date} 
+                        description = {val.description}
+                        />
+                    );
+                    }
+                }) }
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+  )
+}
+
+export default Resume

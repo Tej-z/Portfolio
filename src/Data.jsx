@@ -107,7 +107,7 @@ export const skills = [
 
   {
     id: 3,
-    name: 'WordPress',
+    name: 'Figma',
     percentage: 45,
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -214,7 +214,7 @@ export const cv = [
     id: 3,
     title: 'Narayana Olympiad School',
     subtitle: 'Schooling',
-    date: '2010 - 2012',
+    date: '2017',
     description:
       'Completed 10th boards in CBSE (Central Board of Secondary Education), which is renowned for its comprehensive curriculum and evaluation standards.',
     category: 'education',

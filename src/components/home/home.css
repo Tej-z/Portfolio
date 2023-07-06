@@ -5,9 +5,23 @@
     align-items: center;
 }
 
+.home,
+.home_wrapper,
+.home_container {
+    position: relative;
+}
+
+.home_wrapper {
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
 .home_container {
     width: 100%;
-    position: relative;
+    /* position: relative; */
+    z-index: 10;
+    
 }
 
 .home_subtitle,

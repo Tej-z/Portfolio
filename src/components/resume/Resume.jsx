@@ -19,7 +19,8 @@ const Resume = () => {
                 { cv.map((val, id) => {
                     if(val.category === 'education'){
                         return(
-                        <Card key={id} 
+                        <Card 
+                        key={id} 
                         title={val.title} 
                         subtitle={val.subtitle} 
                         date={val.date} 
@@ -55,7 +56,9 @@ const Resume = () => {
             <img src={shapeOne} alt='' className='shape' />
         </div>
 
-
+        <div className="section_bg-wrapper">
+            <span className="bg_title"> RESUME </span>
+        </div>
     </div>
     </section>
 

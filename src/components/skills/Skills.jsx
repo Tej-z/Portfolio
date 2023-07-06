@@ -42,6 +42,10 @@ const Skills = () => {
             <img src={shapeOne} alt='' className='shape' />
         </div>
 
+        <div className="section_bg-wrapper">
+            <span className="bg_title"> Skills </span>
+        </div>
+
     </section>
   )
 }

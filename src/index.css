@@ -1,0 +1,294 @@
+@media screen and (max-width: 1400px) {
+  .section_deco:not(.header_deco) {
+    display: none;
+  }
+
+  .header {
+    padding: 30px 12px;
+  }
+
+  .home_img-wrapper {
+    max-width: 600px;
+    transform: translateY(-6%);
+  }
+
+  .home_profile {
+    height: auto;
+  }
+
+  .home_data {
+    transform: scale(0.9);
+  }
+
+  .shape_1 {
+    width: 203px;
+    height: 203px;
+  }
+
+  .shape_2,
+  .shape_3 {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .home {
+        padding-top: 140px;
+    }
+
+    .home_subtitle,
+    .home_title,
+    .home_job,
+    .home_text {
+        text-align: center;
+    }
+
+    .home_text{
+        margin-inline: auto;
+    }
+
+    .home_img-wrapper {
+        position: relative;
+        transform: initial;
+        right: initial;
+        margin-inline: auto;
+        margin-top: 140px;
+    }
+
+    .home_socials,
+    .home_btns {
+        justify-content: center;
+    }
+
+    .skills_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer_copyright:nth-child(2) {
+        justify-self: start;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    :root {
+        --h2-font-size: 24px;
+    --h3-font-size: 23px;
+    --h4-font-size: 21px;
+    --h5-font-size: 20px;
+    --largest-font-size: 19px;
+    --larger-font-size: 18px;
+    --large-font-size: 16px;
+    --normal-font-size: 15px;
+    --small-font-size: 14px;
+    --smaller-font-size: 13px;
+    --tiny-font-size: 12px;
+    }
+    .container {
+        max-width: 740px;
+    }
+
+    .home_btns {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+    }
+
+    .hero_link::before {
+        left: 50%;
+        top: -72%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 40px;
+    }
+
+    .contact_form-group {
+        grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+
+    .contact_card-icon {
+        font-size: var(--large-font-size);
+        width: 42px;
+        height: 42px;
+    }
+
+    .contact_card-icon::after {
+        width: 32px;
+    }
+
+    .contact_card {
+        padding-left: 100px;
+    }
+
+    .footer_container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 12px;
+    }
+
+    .footer_copyright:nth-child(2),
+    .gooter_copyright:last-child{
+        justify-self: center;
+    }
+
+    .skills_container {
+        gap: 30px;
+    }
+
+    
+    
+    .resume_container{
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+
+    .resume_icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 24px 12px;
+    }
+
+    .nav_data {
+        padding: 80px 0 0 124px;
+    }
+
+    .show-menu {
+        width: 420px;
+    }
+
+    .header_deco {
+        left: 60px;
+    }
+
+    .container {
+        max-width: 540px;
+    }
+    
+    .home_img-wrapper {
+        margin-top: 120px;
+        max-width: 400px;
+    }
+
+    .home_data {
+        transform: scale(0.6);
+    }
+
+    .home_data-one {
+        left: -12%;
+
+    }
+
+    .home_data-two {
+        right: -7%;
+    }
+
+    .shape_1 {
+        width: 115px;
+        height: 115px;
+        right: 9%;
+    }
+
+    .shape_2,
+    .shape_3 {
+        width: 72px;
+        height: 72px;
+    }
+
+    .shape_2{
+        bottom: 10%;
+        left: -10%;
+    }
+
+    .shape_3{
+        bottom: 4%;
+        right: -1%;
+    }
+
+    .skills_container,
+    .contact_container {
+        grid-template-columns: 1fr;
+    }
+
+    
+}
+
+@media screen and (max-width: 576px) {
+    .show-menu{
+        width: 100%;
+    }
+
+    .nav_btns{
+        column-gap: 24px;
+    }
+    .home_img-wrapper{
+        margin-top: 100px;
+    }
+    .resume_header {
+        padding: 28px 24px;
+    }
+    .resume_content {
+        padding-inline: 24px 30px; 
+    }
+    .resume_date-title {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 4px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .nav_data {
+        padding: 80px 0 0 90px;
+    }
+
+    .header_deco {
+        left: 40px;
+    }
+
+    .home_img-wrapper{
+        margin-top: 80px;
+    }
+
+    .home_data {
+        transform: scale(0.5);
+    }
+
+    .home_data-one {
+        left: -18%;
+        bottom: 18%;
+    }
+
+    .home_data-two {
+        bottom: 0;
+        right: -12%;
+    }
+
+    .card,
+    .card-two {
+        padding: 24px;
+    }
+
+    .skills_titles,
+    .skills_description {
+        padding-inline: 16px;
+    }
+
+    .resume_header {
+        padding: 24px 18px;
+    }
+
+    .resume_content {
+        padding-inline: 18px 24px;
+    }
+}

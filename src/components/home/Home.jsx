@@ -78,6 +78,10 @@ const Home = () => {
         <div className="section_deco deco_left">
             <img src={shapeOne} alt='' className='shape' />
         </div>
+
+        <div className="section_bg-wrapper">
+            <span className="bg_title"> Web Developer </span>
+        </div>
     </section>
   );
 };

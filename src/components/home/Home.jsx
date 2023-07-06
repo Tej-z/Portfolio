@@ -52,15 +52,15 @@ const Home = () => {
             </p>
 
             <div className='home_socials'>
-                <a href='' className='home_social-link'>
+                <a href='https://github.com/Tej-z' className='home_social-link'>
                     <FaGithub />
                 </a>
 
-                <a href='' className='home_social-link'>
+                <a href='https://www.linkedin.com/in/tejas-ramesh-4980a9248/' className='home_social-link'>
                     <FaLinkedinIn />
                 </a>
 
-                <a href='' className='home_social-link'>
+                <a href='https://www.instagram.com/tezyzzz/' className='home_social-link'>
                     <FaInstagram />
                 </a>
             </div>

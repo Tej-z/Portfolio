@@ -85,15 +85,15 @@ const Header = () => {
                 </ul>
 
                 <div className='header_socials'>
-                <a href='' className='header_social-link'>
+                <a href='https://github.com/Tej-z' className='header_social-link'>
                     <FaGithub />
                 </a>
 
-                <a href='' className='header_social-link'>
+                <a href='https://www.linkedin.com/in/tejas-ramesh-4980a9248/' className='header_social-link'>
                     <FaLinkedinIn />
                 </a>
 
-                <a href='' className='header_social-link'>
+                <a href='https://www.instagram.com/tezyzzz/' className='header_social-link'>
                     <FaInstagram />
                 </a>
             </div>

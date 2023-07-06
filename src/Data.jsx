@@ -138,115 +138,115 @@ export const skills = [
   },
 ];
 
-export const projects = [
-  {
-    id: 1,
-    img: Project1,
-    category: 'Branding',
-    title: 'Zorro',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 2,
-    img: Project2,
-    category: 'UI UX Design',
-    title: 'Gooir',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 3,
-    img: Project3,
-    category: 'Development',
-    title: 'Explore',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 4,
-    img: Project4,
-    category: 'Photography',
-    title: 'Mozar',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 5,
-    img: Project5,
-    category: 'Development',
-    title: 'Stay Fit',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 6,
-    img: Project6,
-    category: 'Branding',
-    title: 'Kana',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-];
+// export const projects = [
+//   {
+//     id: 1,
+//     img: Project1,
+//     category: 'Branding',
+//     title: 'Zorro',
+//     description:
+//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+//   },
+//   {
+//     id: 2,
+//     img: Project2,
+//     category: 'UI UX Design',
+//     title: 'Gooir',
+//     description:
+//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+//   },
+//   {
+//     id: 3,
+//     img: Project3,
+//     category: 'Development',
+//     title: 'Explore',
+//     description:
+//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+//   },
+//   {
+//     id: 4,
+//     img: Project4,
+//     category: 'Photography',
+//     title: 'Mozar',
+//     description:
+//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+//   },
+//   {
+//     id: 5,
+//     img: Project5,
+//     category: 'Development',
+//     title: 'Stay Fit',
+//     description:
+//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+//   },
+//   {
+//     id: 6,
+//     img: Project6,
+//     category: 'Branding',
+//     title: 'Kana',
+//     description:
+//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+//   },
+// ];
 
 export const cv = [
   {
     id: 1,
-    title: 'CoderHouse Courses',
-    subtitle: 'Backend Programming',
-    date: '2014 - 2016',
+    title: 'Amrita Vishwa Vidyapeetham',
+    subtitle: 'Bachelor of Technology',
+    date: '2020 - 2024',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Currently pursuing B.Tech in Computer Science and Engineering at Amrita Vishwa Vidyapeetham.',
     category: 'education',
   },
 
   {
     id: 2,
-    title: 'Lviv National Academy of Arts',
-    subtitle: 'Faculty of Design',
-    date: '2012 - 2014',
+    title: 'Narayana PU college',
+    subtitle: 'PUC degree',
+    date: '2018 - 2020',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Studied PCM&C (Physics, Chemistry, Mathematics & Computer Science) course for Pre-University College (PUC).',
     category: 'education',
   },
 
   {
     id: 3,
-    title: 'IT Future',
-    subtitle: 'High School',
+    title: 'Narayana Olympiad School',
+    subtitle: 'Schooling',
     date: '2010 - 2012',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Completed 10th boards in CBSE (Central Board of Secondary Education), which is renowned for its comprehensive curriculum and evaluation standards.',
     category: 'education',
   },
 
   {
     id: 4,
-    title: 'UI Head & Manager',
-    subtitle: 'Soft Tech Inc.',
-    date: '2020 - PRESENT',
+    title: 'JIDO',
+    subtitle: 'Automation Club',
+    date: '2022 - PRESENT',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Fostering a vibrant community of like-minded enthusiasts.Organizing workshops,and projects.',
     category: 'experience',
   },
 
   {
     id: 5,
-    title: 'UI / UX Specialist',
-    subtitle: 'Kana Design Studio',
-    date: '2018 - 2020',
+    title: 'Forge',
+    subtitle: 'Game Development Club',
+    date: '2022 - 2023',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Contributed as an executive in organizing VR/AR, gaming, and game development events.',
     category: 'experience',
   },
 
   {
     id: 6,
-    title: 'Plugins Developer',
-    subtitle: 'Fiverr.com',
-    date: '2016 - 2018',
+    title: 'CodeChef',
+    subtitle: 'Competitive Coding Club',
+    date: '2022 - 2023',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Assisted in conducting hackathons and coding workshops, facilitating a collaborative environment for participants to enhance their coding skills.',
     category: 'experience',
   },
 ];

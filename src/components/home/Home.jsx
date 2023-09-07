@@ -49,9 +49,7 @@ const Home = () => {
             </div>
         
             <p className='home_text'>
-            Motivated B.Tech. student at Amrita University, Bangalore. Experienced in multiple
-domain related project activities, proficient in C/C++, JAVA, JavaScript, Python, and
-more. Dedicated to delivering high-quality results and eager to gain further
+            Motivated B.Tech. student at Amrita University, Bangalore.Dedicated to delivering high-quality results and eager to gain further
 experience in the field. Interested in QA, web development, cloud, AI/ML, and
 Blockchain.
             </p>

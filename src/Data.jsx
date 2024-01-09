@@ -94,7 +94,7 @@ export const skills = [
     name: 'Node.js',
     percentage: 75,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Node.js: JavaScript runtime for server-side applications, renowned for its asynchronous, non-blocking, event-driven architecture, fostering scalable web development.'
   },
 
   {

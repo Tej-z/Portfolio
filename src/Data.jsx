@@ -102,7 +102,7 @@ export const skills = [
     name: 'JavaScript',
     percentage: 75,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'JavaScript expert: Proficient in creating dynamic, responsive web applications with strong problem-solving skills and modern frameworks/libraries.',
   },
 
   {
@@ -110,7 +110,7 @@ export const skills = [
     name: 'Figma',
     percentage: 45,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Figma proficient: Skilled in collaborative design, wireframing, and prototyping, enhancing team efficiency and delivering impactful visual experiences.',
   },
 
   {
@@ -118,7 +118,7 @@ export const skills = [
     name: 'Python',
     percentage: 65,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Python: Versatile programming language adept at web development, data analysis, and automation, facilitating efficient and scalable solutions.',
   },
 
   {
@@ -126,7 +126,7 @@ export const skills = [
     name: 'React.js',
     percentage: 90,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'React.js excels in building dynamic, responsive user interfaces, simplifying complex UI logic with its component-based architecture and reactivity.',
   },
 
   {
@@ -134,7 +134,7 @@ export const skills = [
     name: 'Adobe After Effects',
     percentage: 90,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Adobe After Effects: Mastering motion graphics and visual effects, turning creative ideas into dynamic animations with precision and flair.',
   },
 ];
 

@@ -1,3 +1,11 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+
 @media screen and (max-width: 1400px) {
   .section_deco:not(.header_deco) {
     display: none;

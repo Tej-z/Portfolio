@@ -9,7 +9,7 @@ const Card = (props) => {
             <span className='resume_icon'>{showInfo ? '-' : '+'}</span>
         </div>
 
-        <div className={`${showInfo ? 'show-content' : ''}resume_content`}>
+        <div className={`${showInfo ? 'show-content ' : ''}resume_content`}>
             <div className='resume_date-title'>
                 <h3 className='resume_title'>{props.subtitle}</h3>
                 <span className='resume_date text-cs'>{props.date}</span>
